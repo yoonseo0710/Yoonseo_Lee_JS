@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+
+
+    <title>Home Craft</title>
+    
+</head>
+
+
+<!-- body starts here -->
+<body>
+    <div>
+        <img id="close" src="assets/images/close.png" alt="close image"/>
+        <nav id="navBurger">
+            <ul>
+                <li id="nav1"><a href="home"> Home </a></li>
+                <li id="nav2"><a href="#about"> About </a></li>
+                <li id="nav3"><a href="#service"> Services </a></li>
+                <li id="nav4"><a href="#contact"> Contact </a></li>
+            </ul>
+        </nav>    
+        <div class="header">
+            <ul id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="logo">Home Craft</li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <img id="burger" src="assets/images/burger-bar.png" alt="burger image"/>     
+    </div>
+
+    <section class="banner" id="home">
+        <div class="banner-text">
+            <h2>Crafting Comfort for Every Corner</h2>
+            <p>"Experience the Difference with Home Craft Furniture"</p>
+            <a href="#">Learn More</a>
+        </div>
+    </section>
+
+    <!-- gradient js -->
+    <canvas id="canvas-basic"></canvas>
+
+    <!-- carousel js -->
+    <section class="carousel">
+        <a class="carousel-item" href="#">
+            <div class="testi">
+                <div class="img-area">
+                    <img src="assets/images/furniture1.jpeg" alt="brown Soft Suede Couch">
+                </div>
+                <h4>Soft Suede Couch</h4>
+                <h5>Wrap yourself in luxury with this suede-upholstered couch, providing a velvety texture and understated elegance to your home.</h5>
+            </div>
+        </a>
+
+        <a class="carousel-item" href="#">
+            <div class="testi">
+                <div class="img-area">
+                    <img src="assets/images/furniture2.jpeg" alt="red Modern Valvet Loveseat">
+                </div>
+                <h4>Modern Velvet Loveseat</h4>
+                <h5>This modern loveseat boasts velvet upholstery and clean lines, creating a cozy yet stylish addition to your living space.</h5>
+            </div>
+        </a>
+
+        <a class="carousel-item" href="#">
+            <div class="testi">
+                <div class="img-area">
+                    <img src="assets/images/furniture3.webp" alt="blue Chic Fabric Couch">
+                </div>
+                <h4>Chic Fabric Couch</h4>
+                <h5> Elevate your decor with this chic fabric couch, offering contemporary style and comfort with its sleek design and soft cushions.</h5>
+            </div>
+        </a>
+
+        <a class="carousel-item" href="#">
+            <div class="testi">
+                <div class="img-area">
+                    <img src="assets/images/furniture4.jpeg" alt="brown Luxe Louge">
+                </div>
+                <h4>Luxe Lounge</h4>
+                <h5>Relax in style on this linen-upholstered lounge, featuring a blend of comfort and sophistication with its velvet texture.</h5>
+            </div>
+        </a>
+
+        <a class="carousel-item" href="#">
+            <div class="testi">
+                <div class="img-area">
+                    <img src="assets/images/furniture5.jpeg" alt="green Plush Velvet Sectional">
+                </div>
+                <h4>Plush Velvet Sectional</h4>
+                <h5>Sink into plush comfort with this velvet sectional, combining softness and style for a luxurious seating experience.</h5>
+            </div>
+        </a>
+
+        <a class="carousel-item" href="#">
+            <div class="testi">
+                <div class="img-area">
+                    <img src="assets/images/furniture6.jpeg" alt="pink Velvet Dream Couch">
+                </div>
+                <h4>Velvet Dream Couch</h4>
+                <h5>A sleek and elegant sofa upholstered in plush velvet, offering luxurious comfort.</h5>
+            </div>
+        </a>
+    </section>
+    <!-- carousel ends here -->
+
+    <!-- brand showcase starts here -->
+    <div class="about" id="about">
+        <div class="section-header">
+            <h2>BRAND SHOWCASE</h2>
+            <p>Explore our curated collection of renowned furniture brands, each offering a unique blend of style, quality, and craftsmanship. From timeless classics to contemporary designs, discover the perfect brand to suit your individual taste and preferences</p>
+        </div>
+
+        <div class="about-content">
+            <div class="single-about">
+                <img src="assets/images/about.jpeg" alt="green sofa image for brand showcase section">
+                <main class="container">
+                    <section class="card" data-aos="fade-left">
+                        <img class="cardimage" src="assets/images/stores-01.jpg" alt="Ethan Allen image" />
+                        <div class="cardcontent">
+                            <h3>ETHAN ALLEN</h3>
+                            <p> Renowned for its classic, traditional designs and commitment to fine craftsmanship, Ethan Allen offers a range of elegant furniture pieces made from premium materials.</p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>
+                    </section>
+                    
+                    <section class="card" data-aos="fade-right">
+                        <img class="cardimage" src="assets/images/stores-04.jpg" alt="Stickley image" />
+                        <div>
+                            <h3>STICKLEY</h3>
+                            <p>With a focus on handcrafted, solid wood furniture, Stickley is known for its Mission-style designs, attention to detail, and heirloom-quality construction.</p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>
+                    </section>
+
+                    <section class="card" data-aos="fade-left">
+                        <img class="cardimage" src="assets/images/stores-03.jpg" alt="Bernhardt image" />
+                        <div>
+                            <h3>BERNHARDT</h3>
+                            <p>Recognized for its luxury furniture collections, Bernhardt combines modern aesthetics with traditional craftsmanship to create high-quality, stylish pieces for the home.</p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>
+                    </section>
+
+                    <section class="card" data-aos="fade-right">
+                        <img class="cardimage" src="assets/images/stores-05.jpg" alt="Baker Furniture image" />
+                        <div>
+                            <h3>BAKER FURNITURE</h3>
+                            <p>Celebrated for its timeless elegance and meticulous craftsmanship, Baker Furniture produces luxurious, high-end furniture inspired by classical design principles.</p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>
+                    </section>
+
+                    <section class="card" data-aos="fade-left">
+                        <img class="cardimage" src="assets/images/stores-02.jpg" alt="Hickory Chair image" />
+                        <div>
+                            <h3>HICKORY CHAIR</h3>
+                            <p>Known for its custom-made furniture and dedication to traditional craftsmanship, Hickory Chair offers a wide range of customizable pieces crafted from the finest materials.</p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>
+                    </section>      
+                </main>
+            </div>
+        </div>
+    </div>
+    <!-- brand showcase ends here -->
+
+    <!-- signature styles starts here -->
+    <section class="service" id="service">
+        <div class="section-header">
+            <h2>SIGNATURE STYLES</h2>
+        </div>
+
+        <div class="service-content">
+            <div class="single-service">
+                <img src="assets/images/section-02.png" alt="image for classic charm style">
+                <h2>Classic Charm</h2>
+                <p>Timeless Treasures - Explore Vintage Elegance</p>
+            </div>
+
+            <div class="single-service">
+                <img src="assets/images/section-01.png" alt="image for contemporary essentials style">
+                <h2>Contemporary Essentials</h2>
+                <p>Sleek Sophistication - Discover Modern Design</p>
+            </div>
+
+            <div class="single-service">
+                <img src="assets/images/section-03.png" alt="image for sleek sophistication style">
+                <h2>Sleek Sophistication</h2>
+                <p>Cozy Retreats - Embrace Scandinavian Serenity</p>
+            </div>
+        </div>
+    </section>
+    <!-- signature styles ends here -->
+
+    <!-- contact starts here -->
+    <div class="contact" id="contact">
+        <div class="section-header">
+            <h2>CONTACT US</h2>
+            <p>* indicates a required field</p>
+        </div>
+
+        <div class="single-contact">
+            <input type="email" placeholder="*Enter Your Email">
+            <input type="password" placeholder="*Enter Your Password">
+            <input class="donation" type="text" placeholder="Amount of Dollars to Donate">
+            <textarea class="queries" cols="30" rows="10" placeholder="Enter Your Queries"></textarea>
+            <a href="#">Submit</a>
+        </div>
+    </div>
+    <!-- contact ends here -->
+
+    <!-- footer starts here -->
+    <footer>
+        <ul class="socialicon">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+
+        <ul class="menu">
+            <li><a href="#">H0ME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    
+        <p>&copy; 2024 HOME CRAFT</p>
+    </footer>
+    <!-- footer ends here --> 
+
+    <!-- Scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/assets/js/cleave.js"></script>
+    <script src="/assets/js/granim.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="/assets/js/main2.js"></script>
+
+</body>
+<!-- body ends here -->
+
+</html>
